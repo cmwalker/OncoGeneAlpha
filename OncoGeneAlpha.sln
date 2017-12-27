@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B74885B1-3E0F-F4A0-B062-672116D4325F}") = "OncoGeneAlpha", "Assembly-CSharp.csproj", "{040CE578-6929-39A1-8D8C-DC952DF15C9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{040CE578-6929-39A1-8D8C-DC952DF15C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040CE578-6929-39A1-8D8C-DC952DF15C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040CE578-6929-39A1-8D8C-DC952DF15C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040CE578-6929-39A1-8D8C-DC952DF15C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
