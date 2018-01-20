@@ -19,6 +19,8 @@ public class TumorCell : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
+		Debug.Break ();
+		//Divide ();
 		switch (cellCycle) {
 		case 0:
 			break;
@@ -45,6 +47,7 @@ public class TumorCell : MonoBehaviour {
 			}
 			break;
 		}
+		Divide ();
 	}
 
 	//OnCollision
@@ -61,7 +64,7 @@ public class TumorCell : MonoBehaviour {
 	void Divide(){
 		// Determin Inheritance
 		HeritableTraits inheritance = PassTraits();
-		float newRadius = inheritance.Radius;
+		float newRadius = inheritance.Radius+0f;
 		Debug.Log (newRadius);
 		// Calculate new centers
 		float tmpTheta = Random.Range(-Mathf.PI,Mathf.PI);
